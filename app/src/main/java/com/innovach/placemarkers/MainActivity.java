@@ -91,7 +91,7 @@ public class MainActivity extends FragmentActivity implements LocationListener {
 
 
         SupportMapFragment supportMapFragment = (SupportMapFragment)
-                getSupportFragmentManager().findFragmentById(R.id.map);
+                getSupportFragmentManager().findFragmentById(R.id.map)
 
         // Getting a reference to the map
         googleMap = supportMapFragment.getMap();
