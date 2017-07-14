@@ -29,7 +29,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MainActivity  implements LocationListener {
+public class MainActivity extends FragmentActivity implements LocationListener {
 
     GoogleMap googleMap;
     MarkerOptions markerOptions;
